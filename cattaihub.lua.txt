@@ -656,10 +656,10 @@ end
 
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/UIMenu/refs/heads/main/TuanAnhIOS/Uifluent.lua"))()
 local Window = Fluent:CreateWindow({
-    Title="Trong Nguyễn hub",
-    SubTitle="  by trọng béo", 
+    Title="Cắt Tai Hub",
+    SubTitle="   được tạo bởi Sakura", 
     TabWidth=160, 
-    Theme="trọng nguyễn ",
+    Theme="Sakura ",
     Acrylic=false,
     Size=UDim2.fromOffset(530, 350), 
     MinimizeKey=Enum.KeyCode.End
@@ -671,7 +671,7 @@ screenGui.Parent = game.CoreGui
 local toggleButton = Instance.new("ImageButton")
 toggleButton.Size = UDim2.new(0, 50, 0, 50)
 toggleButton.Position = UDim2.new(0.15, 0, 0.15, 0)
-toggleButton.Image = "rbxassetid://116231965107271"
+toggleButton.Image = "rbxassetid://121514150895973"
 toggleButton.BackgroundTransparency = 1
 toggleButton.Parent = screenGui
 
@@ -751,31 +751,31 @@ toggleButton.MouseButton1Click:Connect(function()
     end
 end)
 local Tabs = {
-  Main = Window:AddTab({Title = "Tab Farming", Icon = "rbxassetid://116231965107271"}),
-  Settings = Window:AddTab({Title = "Tab Setting Farm", Icon = "rbxassetid://116231965107271"}),
-  Melee = Window:AddTab({Title = "Tab Auto Get Melee V2", Icon = "rbxassetid://116231965107271"}),
-  Quests = Window:AddTab({Title = "Tab Items Farm", Icon = "rbxassetid://116231965107271"}),
-  SeaEvent = Window:AddTab({Title = "Tab Sea Events", Icon = "rbxassetid://116231965107271"}),
-  Mirage = Window:AddTab({Title = "Tab Mirage + RaceV4", Icon = "rbxassetid://116231965107271"}),
-  Drago = Window:AddTab({Title = "Tab Drago Dojo", Icon = "rbxassetid://116231965107271"}),
-  Prehistoric = Window:AddTab({Title = "Tab Prehistoric", Icon = "rbxassetid://116231965107271"}),
-  Raids = Window:AddTab({Title = "Tab Raid", Icon = "rbxassetid://116231965107271"}),
-  Combat = Window:AddTab({Title = "Tab Combat PVP", Icon = "rbxassetid://116231965107271"}),
-  Travel = Window:AddTab({Title = "Tab Teleport", Icon = "rbxassetid://116231965107271"}),
-  Fruit = Window:AddTab({Title = "Tab Fruits", Icon = "rbxassetid://116231965107271"}),
-  Shop = Window:AddTab({Title = "Tab Shop", Icon = "rbxassetid://116231965107271"}),
-  Misc = Window:AddTab({Title = "Tab Misc", Icon = "rbxassetid://116231965107271"})
+  Main = Window:AddTab({Title = "Tab Farming", Icon = "rbxassetid://121514150895973"}),
+  Settings = Window:AddTab({Title = "Tab Setting Farm", Icon = "rbxassetid://121514150895973"}),
+  Melee = Window:AddTab({Title = "Tab Auto Get Melee V2", Icon = "rbxassetid://121514150895973"}),
+  Quests = Window:AddTab({Title = "Tab Items Farm", Icon = "rbxassetid://121514150895973"}),
+  SeaEvent = Window:AddTab({Title = "Tab Sea Events", Icon = "rbxassetid://121514150895973"}),
+  Mirage = Window:AddTab({Title = "Tab Mirage + RaceV4", Icon = "rbxassetid://121514150895973"}),
+  Drago = Window:AddTab({Title = "Tab Drago Dojo", Icon = "rbxassetid://121514150895973"}),
+  Prehistoric = Window:AddTab({Title = "Tab Prehistoric", Icon = "rbxassetid://121514150895973"}),
+  Raids = Window:AddTab({Title = "Tab Raid", Icon = "rbxassetid://121514150895973"}),
+  Combat = Window:AddTab({Title = "Tab Combat PVP", Icon = "rbxassetid://121514150895973"}),
+  Travel = Window:AddTab({Title = "Tab Teleport", Icon = "rbxassetid://121514150895973"}),
+  Fruit = Window:AddTab({Title = "Tab Fruits", Icon = "rbxassetid://121514150895973"}),
+  Shop = Window:AddTab({Title = "Tab Shop", Icon = "rbxassetid://121514150895973"}),
+  Misc = Window:AddTab({Title = "Tab Misc", Icon = "rbxassetid://121514150895973"})
 }
 
 Tabs.Main:AddButton({
-        Title="Link Join Sever trọng béo",
-        Description="https://discord.gg/MZh9Z7hcC9",
+        Title="Join sever cắt Tai Hub",
+        Description="https://discord.gg/mU2PU2x7Hq",
         Callback=function()
-            setclipboard(tostring("https://discord.gg/MZh9Z7hcC9")) 
+            setclipboard(tostring("https://discord.gg/mU2PU2x7Hq")) 
         end
 })
-Tabs.Main:AddSection("Trọng Béo đẹp zaii")
-local FarmLevel = Tabs.Main:AddToggle("FarmLevel", {Title = "Auto Farm Level", Description = "Update Cày Level 2650-2750 New", Default = false})
+Tabs.Main:AddSection("Long Yêu Em")
+local FarmLevel = Tabs.Main:AddToggle("FarmLevel", {Title = "Auto Farm Level", Description = "Update Cày Level 2650-2800 New", Default = false})
 FarmLevel:OnChanged(function(Value)
   _G.Level = Value
 end)
